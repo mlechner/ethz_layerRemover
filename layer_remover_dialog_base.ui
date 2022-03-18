@@ -49,7 +49,7 @@
     <string>Wollen Sie einen Layer entfernen?</string>
    </property>
   </widget>
-  <widget class="QgsMapLayerComboBox" name="mMapLayerComboBox">
+  <widget class="QgsMapLayerComboBox" name="rmlayer_chooser">
    <property name="geometry">
     <rect>
      <x>40</x>

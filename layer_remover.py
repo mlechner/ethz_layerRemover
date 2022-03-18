@@ -199,5 +199,6 @@ class LayerRemover:
         if result:
             # Do something useful here - delete the line containing pass and
             # substitute with your code.
-            QgsProject.instance().removeAllMapLayers()
+            rmlayer = self.dlg.rmlayer_chooser.currentLayer()
+            QgsProject.instance().removeMapLayer(rmlayer.id())
             self.iface.mapCanvas().refresh()
