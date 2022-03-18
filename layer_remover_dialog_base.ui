@@ -40,16 +40,33 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>23</pointsize>
+     <pointsize>15</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="text">
-    <string>Alle Layer entfernen?</string>
+    <string>Wollen Sie einen Layer entfernen?</string>
+   </property>
+  </widget>
+  <widget class="QgsMapLayerComboBox" name="mMapLayerComboBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>301</width>
+     <height>27</height>
+    </rect>
    </property>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsMapLayerComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qgsmaplayercombobox.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>
