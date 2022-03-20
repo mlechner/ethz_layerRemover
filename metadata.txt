@@ -5,15 +5,15 @@
 [general]
 name=Layer Remover
 qgisMinimumVersion=3.4
-description=This plugin removes ALL layers
-version=0.1
+description=This plugin removes ALL layers or a chosen layer (see commit history for details)
+version=1.0
 author=GeoBoink
 email=marco@marcolechner.de
 
 about=This plugin has been created as a simple exmaple for QGIS plugin development.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/mlechner/ethz_layerRemover/issues
+repository=https://github.com/mlechner/ethz_layerRemover
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +23,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python layer
 
-homepage=http://homepage
+homepage=https://github.com/mlechner/ethz_layerRemover
 category=Plugins
 icon=icon.png
 # experimental flag
